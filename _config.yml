@@ -1,2 +1,27 @@
 title: New Muslim Guide
+description: A guide for new Muslims to learn basic Islam in simple Language
+baseurl: "/NewMuslimGuide" # the subpath of your site ("/blog" for example) if using GitHub Pages
+url: "https://deenalislam.github.io" # the base hostname & protocol for your site
+theme: minima # the theme used for your site
+markdown: kramdown # specifies which Markdown processor to use
+permalink: /:title/ # sets URL format based on post titles
 
+# Optional Social Links
+social:
+  github: https://github.com/ZishanAdThandar
+  twitter: https://twitter.com/ZishanAdThandar
+# Pagination Configuration
+paginate: 5 # Number of posts per page (useful for blogs)
+
+# Optional Plugins
+plugins:
+  - jekyll-feed # Atom feed generator
+  - jekyll-seo-tag # SEO optimization plugin
+
+# Exclude from site
+exclude:
+  - README.md # Files that you don't want to appear on the site
+  - node_modules/
+
+# Build Settings
+markdown_ext: "markdown,mkdown,mkdn,md"
